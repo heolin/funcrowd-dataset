@@ -1,7 +1,6 @@
 # Dataset
 ## About the data
-This dataset contains information about the products available on online eCommerce platform eBay.
-Dataset contains information about the title, categories and an example image of the product, as well as weight in grams of the item.
+This dataset contains information about the weights of products available on online eCommerce platform eBay. It contains information about the title, categories and an example image of the product, as well as weight in grams of the item.
 
 ## Reference annotations
 The reference weights used in the dataset were aquired from the shipping company. The provided weight includes the weight of the package (e.g. a cardboard box). In general the difference between the original weight and the shipping weight can have MAE (mean absolute error) around ~250 grams.

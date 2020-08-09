@@ -1,6 +1,6 @@
 # Dataset
 ## About the data
-This dataset contains data from the Datafiniti's Business Database. The original dataset includes hotel location, name, rating, review data, title, username, and more. In this task we reduced the data only to the review message text and the review rating score.
+This dataset contains Hotel's review message together with ratings values assigned to those messages. The data used in the dataset was extracted from the Datafiniti's Business Database. The original dataset includes hotel location, name, rating, review data, title, username, and more. In this task we reduced the data only to the review message text and the review rating score.
 
 ## Preprocessing
 1. All rows that didn't have the review message or the review rating were filtered out

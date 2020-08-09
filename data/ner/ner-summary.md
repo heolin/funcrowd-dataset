@@ -1,6 +1,8 @@
 # Dataset
 ## About the data
-This is the extract from GMB (Groningen Meaning Bank) corpus which is tagged, annotated and built specifically to train the classifier to predict named entities such as name, location, time etc. Here, we use only a subset of the dataset.
+This dataset contains annotated sentences with marked named entities. Data used in this dataset comes from the GMB (Groningen Meaning Bank) corpus which is tagged, annotated and built specifically to train the classifier to predict named entities such as name, location, time etc. Here, we use only a subset of the dataset.
+
+Each sentence always contains at least one named enitity, but may contain more. Also, each named enitity can be represented but one or many words.
 
 ## Preprocessing
 1. Filtered out all the rows that did not contain any named entity tags
@@ -19,7 +21,7 @@ https://gmb.let.rug.nl/
 
 # Annotation task
 ## Description
-The goal of this task was to find and annotated all named entity in provided sentence. Each sentence always contains at least one named enitity, but may contain more. Also, each named enitity be represented but one or words.
+The goal of this task was to find and annotated all named entity in provided sentence.
 In this we were using a following set of named entity categories:
 
 ```

@@ -1,6 +1,6 @@
 # Dataset
 ## About the data
-The Consumer Complaint Database is a collection of complaints about consumer financial products and services that we sent to companies for response. The original dataset contains a number of fields with information of the company serving the product as well as more detailed information about the financial product itself. In this dataset we reduced the data just to the complaint message and the product category value.
+This database contains data from The Consumer Complaint Database, which is a collection of complaints about consumer financial products and services that we sent to companies for response. The original dataset contains a number of fields with information of the company serving the product as well as more detailed information about the financial product itself. In this dataset we reduced the data just to the complaint message and the product category value.
 
 ## Preprocessing
 1. All rows with too short or to long complaint message was filtered out:

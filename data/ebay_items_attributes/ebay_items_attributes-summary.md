@@ -1,7 +1,6 @@
 # Dataset
 ## About the data
-This dataset contains information about the products available on online eCommerce platform eBay.
-Dataset contains information about the title, categories and an example image of the product, one sentence extracted from the title or the description of the product, as well as information about item attributes that can be found in this sentence.
+This dataset contains information about the attributes (item specifics) of the products available on online eCommerce platform eBay. It contains information about the title, categories and an example image of the product, one sentence extracted from the title or the description of the product, as well as information about item attributes that can be found in this sentence.
 Item attributes are information that describe specific features of the product: such as product brand or the color.
 
 ## Reference annotations
