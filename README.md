@@ -15,10 +15,10 @@ During the research we checked:
 
 All the tests were done using:
 - Funcrowd engine - a custom crowdsourcing service built for this task
-https://github.com/heolin123/funcrowd
-https://github.com/heolin123/funcrowd-frontend
+    - https://github.com/heolin123/funcrowd
+    - https://github.com/heolin123/funcrowd-frontend
 - Amazon Mechanical Turk - a crowdsourcing marketplace, which provides an interface to distribute a custom task over crowdsourcing workers. 
-https://www.mturk.com/
+    - https://www.mturk.com/
 
 # Datasets
 ## bank_complaints
