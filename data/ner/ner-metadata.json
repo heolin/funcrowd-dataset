@@ -1,0 +1,75 @@
+{
+  "name": "ner",
+  "version": "1.0.0",
+  "format": "csv",
+  "licence": "CC BY-NC",
+  "encoding": "utf-8",
+  "fields": [
+    {
+      "name": "package_id",
+      "type": "integer",
+      "description": "Unique id of the items package",
+      "example": 227
+    },
+    {
+      "name": "item_id",
+      "type": "integer",
+      "description": "Unique id of the item",
+      "example": 63147
+    },
+    {
+      "name": "user__id",
+      "type": "integer",
+      "description": "Unique id of the user",
+      "example": 525
+    },
+    {
+      "name": "user__feedback",
+      "type": "boolean",
+      "description": "True if user recieved a feedback message during the annotation",
+      "example": true
+    },
+    {
+      "name": "data__item_id",
+      "type": "integer",
+      "description": "Dataset id of the item",
+      "example": 2986,
+    },
+    {
+      "name": "data__text",
+      "type": "string",
+      "description": "Haitian authorities say former Prime Minister Yvon Neptune.",
+      "example": "Calvin Klein Invisibles Hipster 3 Pack MultiColor Size Small US"
+    },
+    {
+      "name": "annotation__output",
+      "type": "string",
+      "description": "Named enitity tags in IOB format for each token created by the user",
+      "example": "['O', 'O', 'O', 'O', 'Person-b', 'Person-i']"
+    },
+    {
+      "name": "annotation__time",
+      "type": "string",
+      "description": "Time user spent on annotating this item",
+      "example": "0 days 00:00:05.552429000"
+    },
+    {
+      "name": "reference__output",
+      "type": "string",
+      "description": "Reference named entity tags in IOB format for each token",
+      "example": "['O', 'O', 'O', 'O', 'Person-b', 'Person-i']"
+    },
+    {
+      "name": "feedback__output",
+      "type": "string",
+      "description": "Named entity tags in IOB format that were shown to the user as a feedback. Doesn't need to be the same as the one from the `reference__output` field",
+      "example": "['O', 'O', 'O', 'O', 'Person-b', 'Person-i']"
+    },
+    {
+      "name": "test_group",
+      "type": "string",
+      "description": "Defines the test conditions in which this annotation was created (e.g. low quality feedback)",
+      "example": "high quality feedback"
+    },
+  ]
+}

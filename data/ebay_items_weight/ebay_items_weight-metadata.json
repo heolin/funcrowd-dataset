@@ -1,0 +1,87 @@
+{
+  "name": "ebay_items_weight",
+  "version": "1.0.0",
+  "format": "csv",
+  "licence": "CC BY-NC",
+  "encoding": "utf-8",
+  "fields": [
+    {
+      "name": "package_id",
+      "type": "integer",
+      "description": "Unique id of the items package",
+      "example": 227
+    },
+    {
+      "name": "item_id",
+      "type": "integer",
+      "description": "Unique id of the item",
+      "example": 63147
+    },
+    {
+      "name": "user__id",
+      "type": "integer",
+      "description": "Unique id of the user",
+      "example": 525
+    },
+    {
+      "name": "user__feedback",
+      "type": "boolean",
+      "description": "True if user recieved a feedback message during the annotation",
+      "example": true
+    },
+    {
+      "name": "data__item_id",
+      "type": "integer",
+      "description": "eBay item's id",
+      "example": 163802863541
+    },
+    {
+      "name": "data__title",
+      "type": "string",
+      "description": "The title of the item",
+      "example": "Lenovo ThinkPad Bluetooth Laser Mouse",
+    },
+    {
+      "name": "data__image_url",
+      "type": "integer",
+      "description": "Url to an example image of the item",
+      "example": "https://i.ebayimg.com/00/s/MTAwMFg4NTA=/z/hfkAAOSwECNdRV6n/$_1.JPG"
+    },
+    {
+      "name": "data__category_breadcrumbs",
+      "type": "string",
+      "description": "eBay category path breadcrumbs",
+      "example": "Clothes, Shoes & Accessories > Women's Clothing"
+    },
+    {
+      "name": "annotation__output",
+      "type": "float",
+      "description": "Item's weight in grams annotated by the user",
+      "example": 150.0
+    },
+    {
+      "name": "annotation__time",
+      "type": "string",
+      "description": "Time user spent on annotating this item",
+      "example": "0 days 00:00:05.552429000"
+    },
+    {
+      "name": "reference__output",
+      "type": "float",
+      "description": "Reference item weight in grams",
+      "example": 150.0
+    },
+    {
+      "name": "feedback__output",
+      "type": "string",
+      "description": "Item's weight showed as a feedback. Doesn't need to be the same as the one from the `reference__output` field",
+      "example": 150.0
+    },
+    {
+      "name": "test_group",
+      "type": "string",
+      "description": "Defines the test conditions in which this annotation was created (e.g. low quality feedback)",
+      "example": "high quality feedback"
+    },
+  ]
+}

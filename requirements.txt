@@ -1,0 +1,8 @@
+pandas
+jupyter
+bootstrapped
+matplotlib
+seaborn
+sklearn
+sklearn-crfsuite
+

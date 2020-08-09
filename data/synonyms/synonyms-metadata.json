@@ -1,0 +1,80 @@
+{
+  "name": "synonyms",
+  "version": "1.0.0",
+  "format": "csv",
+  "encoding": "utf-8",
+  "fields": [
+    {
+      "name": "package_id",
+      "type": "integer",
+      "description": "Unique id of the items package",
+      "example": 227
+    },
+    {
+      "name": "item_id",
+      "type": "integer",
+      "description": "Unique id of the item",
+      "example": 63147
+    },
+    {
+      "name": "user__id",
+      "type": "integer",
+      "description": "Unique id of the user",
+      "example": 525
+    },
+    {
+      "name": "user__feedback",
+      "type": "boolean",
+      "description": "True if user recieved a feedback message during the annotation",
+      "example": true
+    },
+    {
+      "name": "data__item_id",
+      "type": "integer",
+      "description": "Dataset id of the item",
+      "example": 2877
+    },
+    {
+      "name": "data__sentence1",
+      "type": "string",
+      "description": "The first sentence with the selected word marked using xml-like tags.",
+      "example": "He was doing nothing at Dunton Green except a little <token>tailoring</token>."
+    },
+    {
+      "name": "data__sentence2",
+      "type": "string",
+      "description": "The second sentence with the selected word marked using xml-like tags.",
+      "example": "He was doing nothing at Dunton Green except a little <token>tailoring</token>."
+    },
+    {
+      "name": "annotation__output",
+      "type": "string",
+      "description": "Output decision created by the user",
+      "example": "Yes"
+    },
+    {
+      "name": "annotation__time",
+      "type": "string",
+      "description": "Time user spent on annotating this item",
+      "example": "0 days 00:00:05.552429000"
+    },
+    {
+      "name": "reference__output",
+      "type": "string",
+      "description": "Reference decision showing if tokens have a similar meaning",
+      "example": "Yes"
+    },
+    {
+      "name": "feedback__output",
+      "type": "string",
+      "description": "Decision showing if tokens have a similar meaning showed as a feedback. Doesn't need to be the same as the one from the `reference__output` field",
+      "example": "Yes"
+    },
+    {
+      "name": "test_group",
+      "type": "string",
+      "description": "Defines the test conditions in which this annotation was created (e.g. low quality feedback)",
+      "example": "high quality feedback"
+    },
+  ]
+}
