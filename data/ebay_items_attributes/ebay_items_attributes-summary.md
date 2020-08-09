@@ -1,6 +1,11 @@
 # Dataset
 ## About the data
+This dataset contains information about the products available on online eCommerce platform eBay.
+Dataset contains information about the title, categories and an example image of the product, one sentence extracted from the title or the description of the product, as well as information about item attributes that can be found in this sentence.
+Item attributes are information that describe specific features of the product: such as product brand or the color.
 
+## Reference annotations
+The reference annotations in this dataset were based on the information aquired directly from the eBay API. However, the quality of the annotations is not perfect, because usually the sellers, who list the item do not put all the information about the product.
 
 ## Preprocessing
 1. Filtered out all the rows that did not contain any named entity tags
@@ -16,7 +21,8 @@ However all the items in the dataset can aquired using eBay API.
 
 # Annotation task
 ## Description
-The goal of this task was to find and annotated all named entity in provided sentence. Each sentence always contains at least one named enitity, but may contain more. Also, each named enitity be represented but one or words.
+The goal of this task was to find and annotated item attributes in the provided sentence. Each sentence always contains at least one named enitity, but may contain more. Also, each named enitity be represented but one or words. Moreover user sees information about the title of the product, path of categories (in which following produt is listed), an example image of the product.
+
 In this we were using a following set of named entity categories:
 
 ```
