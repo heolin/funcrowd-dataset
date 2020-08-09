@@ -1,6 +1,6 @@
 # Dataset
 ## About the data
-
+This is the extract from GMB (Groningen Meaning Bank) corpus which is tagged, annotated and built specifically to train the classifier to predict named entities such as name, location, time etc. Here, we use only a subset of the dataset.
 
 ## Preprocessing
 1. Filtered out all the rows that did not contain any named entity tags
@@ -8,11 +8,14 @@
 3. All rows were shuffled.
 
 ## Schema
-The schema of the dataset in available in JSON schema in the `ebay_items_attributes-metadata.json` file.
+The schema of the dataset in available in JSON schema in the `ner-metadata.json` file.
 
 ## Source
-Dataset was aquired from private database of the https://www.webinterpret.com/.
-However all the items in the dataset can aquired using eBay API.
+This dataset was aquired from following link:
+https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus/data?select=ner_dataset.csv
+
+You can access the full dataset on the GMB website:
+https://gmb.let.rug.nl/
 
 # Annotation task
 ## Description
@@ -21,12 +24,11 @@ In this we were using a following set of named entity categories:
 
 ```
 [
-    "Pattern",
-    "Material",
-    "Color",
-    "Department",
-    "Size",
-    "Brand"
+    "Geographical",
+    "Geopolitical",
+    "Person",
+    "Organization",
+    "Time"
 ]
 ```
 
@@ -54,4 +56,4 @@ For each token in each sentence we use two rules:
     - 10% for the low quality feedback
 
 #  Licence
-Dataset is a property of https://www.webinterpret.com/
+Dataset is a property of https://gmb.let.rug.nl/
