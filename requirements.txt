@@ -5,4 +5,5 @@ matplotlib
 seaborn
 sklearn
 sklearn-crfsuite
+pytimeparse
 
