@@ -26,42 +26,42 @@ This database contains data from The Consumer Complaint Database, which is a col
 
 [Read more...](data/bank_complaints/bank_complaints-summary.md)
 
-[See test results...](notebooks/bank_complaints/1.%20Compute%20confidence%20intervals.ipynb)
+[See test results...](notebooks/bank_complaints/Analyse%20dataset.ipynb)
 
 ## ebay_items_attributes
 This dataset contains information about the attributes (item specifics) of the products available on online eCommerce platform eBay.
 
 [Read more...](data/ebay_items_attributes/ebay_items_attributes-summary.md)
 
-[See test results...](notebooks/ebay_items_attributes/1.%20Compute%20confidence%20intervals.ipynb)
+[See test results...](notebooks/ebay_items_attributes/Analyse%20dataset.ipynb)
 
 ## ebay_items_weight
 This dataset contains information about the weights of products available on online eCommerce platform eBay. 
 
 [Read more...](data/ebay_items_weight/ebay_items_weight-summary.md)
 
-[See test results...](notebooks/ebay_items_weight/1.%20Compute%20confidence%20intervals.ipynb)
+[See test results...](notebooks/ebay_items_weight/Analyse%20dataset.ipynb)
 
 ## hotel_review_sentiment
 This dataset contains Hotel's review message together with ratings values assigned to those messages. The data used in the dataset was extracted from the Datafiniti's Business Database.
 
 [Read more...](data/hotel_review_sentiment/hotel_review_sentiment-summary.md)
 
-[See test results...](notebooks/hotel_review_sentiment/1.%20Compute%20confidence%20intervals.ipynb)
+[See test results...](notebooks/hotel_review_sentiment/Analyse%20dataset.ipynb)
 
 ## ner
 This dataset contains annotated sentences with marked named entities. Data used in this dataset comes from the GMB (Groningen Meaning Bank). 
 
 [Read more...](data/ner/ner-summary.md)
 
-[See test results...](notebooks/ner/1.%20Compute%20confidence%20intervals.ipynb)
+[See test results...](notebooks/ner/Analyse%20dataset.ipynb)
 
 ## synonyms
 The goal of this dataset was to check if users are able to determine if two selected words are synonyms or not. This dataset contains pairs of sentences with one word marked in each of them.
 
 [Read more...](data/synonyms/synonyms-summary.md)
 
-[See test results...](notebooks/synonyms/1.%20Compute%20confidence%20intervals.ipynb)
+[See test results...](notebooks/synonyms/Analyse%20dataset.ipynb)
 
 ## Dataset structure
 Within each dataset you will find three files:
